@@ -26,8 +26,8 @@ const ColorModeSwitcher = () => {
           transition={{ duration: 0.2 }}
           cursor="pointer"
           fontSize={["2xl", "3xl", "3xl"]}
-          marginLeft="1rem"
-          marginTop={"1rem"}
+          marginLeft={{ base: "0.5rem", md: "1rem" }}
+          marginTop={{ md: "1rem" }}
         >
           {mode === "dark" ? "🌤" : "🌙"}
         </MotionBox>

@@ -15,6 +15,7 @@ const SocialIcons = () => {
         md: "repeat(2, minmax(0, 1fr))",
       }}
       gap={{ base: "1.25rem", md: "1rem" }}
+      mb={{ base: "1.5rem" }}
     >
       {siteConfig.author.accounts.map((link, index) => (
         <Link

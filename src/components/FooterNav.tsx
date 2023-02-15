@@ -11,12 +11,16 @@ const Footer = () => {
         <Flex
           flexDir={{ base: "column-reverse", md: "row" }}
           alignItems={{ base: "center", md: "flex-start" }}
-          justifyContent="space-between"
+          justifyContent={{ base: "center", md: "space-between" }}
           paddingY={"5rem"}
           w="full"
           h="full"
         >
-          <Box fontSize={"sm"} lineHeight="1.25rem">
+          <Box
+            fontSize={"sm"}
+            lineHeight="1.25rem"
+            textAlign={{ base: "center" }}
+          >
             <Box as="span" textAlign={"center"} lineHeight="1.75rem">
               Built with 💙 using{" "}
               <Link

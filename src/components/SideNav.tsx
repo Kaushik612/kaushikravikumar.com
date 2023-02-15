@@ -27,12 +27,6 @@ const navItems = {
     y: 95,
     w: "75px",
   },
-  "/education": {
-    name: "education",
-    x: 182,
-    y: 138,
-    w: "100px",
-  },
 };
 
 const navItemsMobile = {
@@ -53,12 +47,6 @@ const navItemsMobile = {
     x: 127,
     y: 5,
     w: "56px",
-  },
-  "/education": {
-    name: "education",
-    x: 182,
-    y: 5,
-    w: "80px",
   },
 };
 
@@ -215,9 +203,10 @@ const Sidebar = () => {
                 </Link>
               );
             })}
+            <ColorModeSwitcher />
           </Flex>
         </Flex>
-        <ColorModeSwitcher />
+
         {/* <ThemeSwitcher variant="solid" /> */}
       </Box>
     </Box>

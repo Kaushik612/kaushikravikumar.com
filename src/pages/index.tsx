@@ -59,12 +59,7 @@ export default function Home() {
           <Text lineHeight={"2rem"} mb="1rem">
             {bio()}
           </Text>
-          <hr
-            style={{
-              height: "0.02rem",
-              backgroundColor: colorMode === "light" ? "text.100" : "",
-            }}
-          />
+          <hr />
           <Text mt={"1.5rem"} lineHeight={"2rem"}>
             {passion()}
           </Text>
