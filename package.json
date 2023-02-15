@@ -16,7 +16,6 @@
     "@fontsource/fira-sans": "^4.5.10",
     "@fontsource/inter": "^4.5.15",
     "@fontsource/noto-serif": "^4.5.11",
-    "@fontsource/sacramento": "^4.5.9",
     "@next/font": "13.1.6",
     "@types/node": "18.13.0",
     "@types/react": "18.0.27",
