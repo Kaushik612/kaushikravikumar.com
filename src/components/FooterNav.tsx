@@ -19,7 +19,7 @@ const Footer = () => {
           <Box
             fontSize={"sm"}
             lineHeight="1.25rem"
-            textAlign={{ base: "center" }}
+            textAlign={{ base: "center", md: "left" }}
           >
             <Box as="span" textAlign={"center"} lineHeight="1.75rem">
               Built with 💙 using{" "}
