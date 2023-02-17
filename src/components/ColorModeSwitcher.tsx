@@ -1,4 +1,3 @@
-import React from "react";
 import { useColorMode, useColorModeValue, Tooltip } from "@chakra-ui/react";
 import { AnimatePresence } from "framer-motion";
 import { MotionBox } from "@/utils/motion";
@@ -15,7 +14,7 @@ const ColorModeSwitcher = () => {
         hasArrow
         label={`${mode} mode 🌓`}
         fontWeight="semibold"
-        marginLeft="-5rem"
+        marginLeft="-1rem"
       >
         <MotionBox
           onClick={handleClick}

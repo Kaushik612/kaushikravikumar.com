@@ -206,8 +206,6 @@ const Sidebar = () => {
             <ColorModeSwitcher />
           </Flex>
         </Flex>
-
-        {/* <ThemeSwitcher variant="solid" /> */}
       </Box>
     </Box>
   );

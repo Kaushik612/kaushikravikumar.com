@@ -11,7 +11,7 @@ const customTheme = extendTheme({
   styles: {
     global: (props) => ({
       "html, body": {
-        bgColor: props.colorMode === "dark" ? "bg.100" : "bg.200",
+        bgColor: props.colorMode === "dark" ? "#1B2430" : "gray.50",
       },
     }),
   },
