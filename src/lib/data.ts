@@ -37,7 +37,7 @@ export const siteConfig = {
         type: "gray",
       },
       {
-        url: "https://www.linkedin.com/in/kaushikkas/",
+        url: "https://www.linkedin.com/in/kaushikrav/",
         icon: FaLinkedin,
         name: "Linkedin",
         type: "linkedin",
