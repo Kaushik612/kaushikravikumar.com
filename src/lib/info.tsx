@@ -14,13 +14,12 @@ export const about = () => {
 export const bio = () => {
   return (
     <>
-      I currently work as a{" "}
-      <b>Senior Software Engineer at American Eagle Outfitters.</b>, where I
-      build scalable backend microservices. I have over{" "}
-      <b>12 years of software development experience</b> and a proven knowledge
-      of advanced technology & Full stack application development using React,
-      JavaScript, Java, Spring Boot & Hibernate, Microservices development and
-      PL/SQL programming
+      I currently work as a <b>Senior Software Engineer at Staples Inc.</b>,
+      where I help architect and develop scalable backend microservices. I have
+      over <b>12 years of software development experience</b> and a proven
+      knowledge of advanced technology & Full stack application development
+      using React, JavaScript, Java, Spring Boot & Hibernate, Microservices
+      development and PL/SQL programming
     </>
   );
 };

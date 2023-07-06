@@ -1,5 +1,5 @@
-import "@fontsource/fira-sans";
-import "@fontsource/noto-serif";
+import "@fontsource-variable/inter";
+import "@fontsource/darker-grotesque";
 import type { AppProps } from "next/app";
 import MainLayout from "@/layout/MainLayout";
 import { ChakraProvider } from "@chakra-ui/react";

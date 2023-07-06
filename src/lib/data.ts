@@ -60,12 +60,21 @@ export const siteConfig = {
 
 export const career = [
   {
+    id: 4,
+    title: "Staples Inc.",
+    role: "Lead Software Engineer",
+    description:
+      "Develop highly scalable backend microservices for supporting the customer facing Staples logistics infrastructure.",
+    time: "April 2023 - Present",
+    tags: ["Java", "Spring Boot", "Azure", "PL/SQL", "RabbitMQ"],
+  },
+  {
     id: 3,
     title: "American Eagle Outfitters",
     role: "Senior Software Engineer",
     description:
       "Design and architect highly scalable backend microservices using Java & Spring boot.",
-    time: "December 2021 - Present",
+    time: "December 2021 - April 2023",
     tags: ["Java", "Spring Boot", "GCP", "PL/SQL", "RabbitMQ"],
   },
   {

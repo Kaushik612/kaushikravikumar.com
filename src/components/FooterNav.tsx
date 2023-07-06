@@ -45,7 +45,7 @@ const Footer = () => {
             <Text mt={"1rem"}>
               Code licensed under <b>MIT License</b>.
             </Text>
-            <Text fontFamily={"cursive"} mt={"1rem"}>
+            <Text fontFamily={"body"} fontStyle={"italic"} mt={"1rem"}>
               {siteConfig.copyright}{" "}
             </Text>
           </Box>

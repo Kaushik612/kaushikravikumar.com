@@ -30,7 +30,7 @@ export default function Home() {
         variants={variants}
         transition={{ type: "linear" }}
       >
-        <Heading fontSize={"3xl"} fontWeight="bold">
+        <Heading fontSize={["4xl", "6xl"]} fontWeight="bold">
           {name}
         </Heading>
         <Text
