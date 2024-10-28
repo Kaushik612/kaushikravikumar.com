@@ -2,6 +2,8 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import NextLink from "next/link";
+import Image from "next/image";
+import { name, avatar } from "../lib/info";
 
 //Chakra Components
 import { Box, Flex, Link, useColorMode } from "@chakra-ui/react";
@@ -53,39 +55,56 @@ const navItemsMobile = {
 function Logo() {
   const { colorMode, setColorMode } = useColorMode();
   return (
-    <Link as={NextLink} aria-label="Kaushik Ravikumar" href="/">
-      <motion.svg
-        display={"inline-block"}
-        width="150px"
-        stroke={colorMode === "light" ? "black" : "white"}
-        viewBox="0 0 120 120"
-      >
-        <motion.path
-          fill={"none"}
-          strokeLinecap="round"
-          strokeLinejoin={"round"}
-          strokeWidth="5px"
-          initial={{
-            opacity: 0,
-            pathLength: 0,
-          }}
-          animate={{
-            opacity: 1,
-            pathLength: 1,
-          }}
-          transition={{
-            duration: 1,
-            type: "spring",
-            stiffness: 50,
-          }}
-          d="M5,5
-           l0,88
-           M5,49
-           l35,-44z
-           l40,44"
-        />
-      </motion.svg>
-    </Link>
+    <Flex
+      alignItems={["start", "center"]}
+      justifyItems={["start", "start"]}
+      marginY="1rem"
+      flexDir={["row", "row", "row"]}
+    >
+      <Image
+        alt={name}
+        style={{
+          borderRadius: "100%",
+        }}
+        src={avatar}
+        placeholder="blur"
+        width={100}
+        priority
+      />
+    </Flex>
+    // <Link as={NextLink} aria-label="Kaushik Ravikumar" href="/">
+    //   <motion.svg
+    //     display={"inline-block"}
+    //     width="150px"
+    //     stroke={colorMode === "light" ? "black" : "white"}
+    //     viewBox="0 0 120 120"
+    //   >
+    //     <motion.path
+    //       fill={"none"}
+    //       strokeLinecap="round"
+    //       strokeLinejoin={"round"}
+    //       strokeWidth="5px"
+    //       initial={{
+    //         opacity: 0,
+    //         pathLength: 0,
+    //       }}
+    //       animate={{
+    //         opacity: 1,
+    //         pathLength: 1,
+    //       }}
+    //       transition={{
+    //         duration: 1,
+    //         type: "spring",
+    //         stiffness: 50,
+    //       }}
+    //       d="M5,5
+    //        l0,88
+    //        M5,49
+    //        l35,-44z
+    //        l40,44"
+    //     />
+    //   </motion.svg>
+    // </Link>
   );
 }
 
@@ -102,7 +121,7 @@ const Sidebar = () => {
     >
       <Box pos={{ lg: "sticky" }} top={{ lg: "5rem" }}>
         <Flex
-          marginLeft={{ base: "0.5rem", md: "12px" }}
+          marginLeft={{ base: "0.5rem", md: "0px" }}
           marginBottom="0.5rem"
           paddingX={{ base: "1rem", md: "0" }}
           flexDir={{ base: "column", md: "row" }}

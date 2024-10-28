@@ -35,11 +35,12 @@ export default function Home() {
         </Heading>
         <Text
           marginY={"1.25rem"}
+          lineHeight={"8"}
           color={colorMode === "light" ? "text.100" : "text.200"}
         >
           {about()}
         </Text>
-        <Flex
+        {/* <Flex
           alignItems={["start", "center"]}
           marginY="2rem"
           flexDir={["row", "row", "row"]}
@@ -54,7 +55,7 @@ export default function Home() {
             width={100}
             priority
           />
-        </Flex>
+        </Flex> */}
         <Box color={colorMode === "light" ? "text.100" : "text.200"}>
           <Text lineHeight={"2rem"} mb="1rem">
             {bio()}

@@ -22,6 +22,7 @@ import {
   SiAmazonaws,
   SiGooglecloud,
   SiNodedotjs,
+  SiMicrosoftazure,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -183,6 +184,11 @@ export const otherTechStacks = [
     name: "GCP",
     icon: SiGooglecloud,
     url: "https://cloud.google.com/",
+  },
+  {
+    name: "Azure",
+    icon: SiMicrosoftazure,
+    url: "https://azure.microsoft.com/en-us/",
   },
   {
     name: "Github & GitLab",

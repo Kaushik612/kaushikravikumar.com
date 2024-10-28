@@ -47,8 +47,8 @@ const Skills = () => {
         >
           <Tabs variant="solid-rounded" mt={5}>
             <TabList mb={"1rem"}>
-              <Tab>Frontend</Tab>
-              <Tab mx={2}>Backend</Tab>
+              <Tab>Backend</Tab>
+              <Tab mx={2}>Frontend</Tab>
               <Tab mx={2}>Others</Tab>
             </TabList>
             <TabPanels>
@@ -62,7 +62,7 @@ const Skills = () => {
                   ]}
                   gap={[2, 5, 5, 5]}
                 >
-                  {webTechStacks.map((stack: TechStack) => (
+                  {backendStacks.map((stack) => (
                     <StackCard stack={stack} key={stack?.name} />
                   ))}
                 </Grid>
@@ -77,7 +77,7 @@ const Skills = () => {
                   ]}
                   gap={[2, 5, 5, 5]}
                 >
-                  {backendStacks.map((stack) => (
+                  {webTechStacks.map((stack: TechStack) => (
                     <StackCard stack={stack} key={stack?.name} />
                   ))}
                 </Grid>
